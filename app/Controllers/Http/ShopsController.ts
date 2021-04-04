@@ -23,7 +23,7 @@ export default class ShopsController {
     }
   }
 
-  public async index({ request, response }: HttpContextContract) {
+  public async index({ response }: HttpContextContract) {
     const shops = await Shop.all();
 
     response.status(200).json({
