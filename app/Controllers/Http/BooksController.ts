@@ -29,7 +29,7 @@ export default class BooksController {
     }
   }
 
-  public async index({ request, response }: HttpContextContract) {
+  public async index({ response }: HttpContextContract) {
     const books = await Book.all();
 
     response.status(200).json({
@@ -38,7 +38,7 @@ export default class BooksController {
     });
   }
 
-  public async show({ request, response, params }: HttpContextContract) {
+  public async show({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {
@@ -84,7 +84,7 @@ export default class BooksController {
     }
   }
 
-  public async destroy({ request, response, params }: HttpContextContract) {
+  public async destroy({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {

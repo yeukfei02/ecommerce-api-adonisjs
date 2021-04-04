@@ -25,7 +25,7 @@ export default class OrdersController {
     }
   }
 
-  public async index({ request, response }: HttpContextContract) {
+  public async index({ response }: HttpContextContract) {
     const orders = await Order.all();
 
     response.status(200).json({
@@ -34,7 +34,7 @@ export default class OrdersController {
     });
   }
 
-  public async show({ request, response, params }: HttpContextContract) {
+  public async show({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {

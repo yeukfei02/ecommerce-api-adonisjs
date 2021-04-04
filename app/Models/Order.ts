@@ -1,7 +1,5 @@
 import { DateTime } from 'luxon';
-import { BaseModel, column, hasMany, HasMany } from '@ioc:Adonis/Lucid/Orm';
-import User from './User';
-import Shop from './Shop';
+import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm';
 
 export default class Order extends BaseModel {
   @column({ isPrimary: true })

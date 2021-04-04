@@ -32,7 +32,7 @@ export default class ShopsController {
     });
   }
 
-  public async show({ request, response, params }: HttpContextContract) {
+  public async show({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {
@@ -75,7 +75,7 @@ export default class ShopsController {
     }
   }
 
-  public async destroy({ request, response, params }: HttpContextContract) {
+  public async destroy({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {

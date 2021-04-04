@@ -62,7 +62,7 @@ export default class UsersController {
     }
   }
 
-  public async index({ request, response }: HttpContextContract) {
+  public async index({ response }: HttpContextContract) {
     const users = await User.all();
 
     response.status(200).json({
@@ -71,7 +71,7 @@ export default class UsersController {
     });
   }
 
-  public async show({ request, response, params }: HttpContextContract) {
+  public async show({ response, params }: HttpContextContract) {
     const id = params.id;
 
     if (id) {
