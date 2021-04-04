@@ -70,7 +70,7 @@ export default class BooksController {
         book.author = requestBody.author;
         book.price = requestBody.price;
         book.quantity = requestBody.quantity;
-        book.shops = requestBody.shopsId;
+        book.shops_id = requestBody.shopsId;
         await book.save();
 
         response.status(200).json({
