@@ -2,7 +2,7 @@
 
 ecommerce-api-adonisjs
 
-<!-- documentation: <https://documenter.getpostman.com/view/3827865/TzCP8Tks> -->
+documentation: <https://documenter.getpostman.com/view/3827865/TzCQa64U>
 
 api url: <https://ecommerce-api-adonisjs.herokuapp.com/>
 

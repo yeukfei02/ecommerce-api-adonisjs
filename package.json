@@ -43,7 +43,8 @@
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
     "commit": "git-cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "heroku-postbuild": "yarn run build"
   },
   "husky": {
     "pre-commit": "yarn run lint && yarn run format",
