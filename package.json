@@ -47,7 +47,9 @@
     "heroku-postbuild": "yarn run build"
   },
   "husky": {
-    "pre-commit": "yarn run lint && yarn run format",
-    "pre-push": "yarn run lint && yarn run format"
+    "hooks": {
+      "pre-commit": "yarn run lint && yarn run format",
+      "pre-push": "yarn run lint && yarn run format"
+    }
   }
 }
