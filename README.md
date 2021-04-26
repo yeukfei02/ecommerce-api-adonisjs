@@ -28,7 +28,7 @@ $ node ace make:controller <controllerName>
 // create model
 $ node ace make:model <modelName>
 
-// change table schema/add/remove column
+// create migration file
 $ node ace make:migration <migrationName>
 
 // db migration
