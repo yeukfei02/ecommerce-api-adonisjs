@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/yeukfei02/ecommerce-api-adonisjs/compare/v0.1.3...v0.1.4) (2022-07-21)
+
+
+### Features
+
+* 🎸 add index ([aa571c9](https://github.com/yeukfei02/ecommerce-api-adonisjs/commit/aa571c91c881b0b853b2eba40f6c2327a5c0492e))
+
 ### [0.1.3](https://github.com/yeukfei02/ecommerce-api-adonisjs/compare/v0.1.2...v0.1.3) (2021-04-26)
 
 ### [0.1.2](https://github.com/yeukfei02/ecommerce-api-adonisjs/compare/v0.1.1...v0.1.2) (2021-04-05)
