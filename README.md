@@ -6,21 +6,16 @@ documentation: <https://documenter.getpostman.com/view/3827865/TzCQa64U>
 
 api url: <https://ecommerce-api-adonisjs.herokuapp.com/>
 
-<!-- cms url: <https://ecommerce-api-adonisjs.herokuapp.com/> -->
-
 ## Requirement
 
 - install yarn
-- install node (v12+)
+- install node (v14+)
 
 ## Testing and run
 
 ```zsh
 // install node dependencies
 $ yarn
-
-// run api in local
-$ yarn run dev
 
 // create controller
 $ node ace make:controller <controllerName>
@@ -36,6 +31,18 @@ $ node ace migration:run
 
 // db rollback
 $ node ace migrate:rollback
+
+// check migration status
+$ node ace migration:status
+
+// create db seed
+$ node ace make:seeder <seederName>
+
+// run all db seed
+$ node ace db:seed
+
+// create middleware
+$ node ace make:middleware <middlewareName>
 
 // list routes
 $ node ace list:routes
